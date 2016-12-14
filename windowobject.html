@@ -1,0 +1,25 @@
+<html>
+<script type="text/javascript">
+	
+	function windowopen(){
+      a=window.open("http://www.facebook.com");
+	}
+	function windowclose(){
+	 a.window.close();
+	}
+	function windowurl() {
+		alert(window.location);
+	}
+	function redirecturl() {
+		window.location="http://www.facebook.com";
+	}
+
+
+</script>
+<body>
+<input type="button" onclick="windowopen()"  value="open">
+<input type="button" onclick="windowclose()"  value="close">
+<input type="button" onclick="windowurl()"  value="Geturl">
+<input type="button" onclick="redirecturl()"  value="redirecturl">
+</body>
+</html>
